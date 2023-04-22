@@ -5,11 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meine Website</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <header>About me</header>
-  <body>
-    <h1>Tim Wagner</h1>
-    <img src="img_Tim.jpeg" alt="Foto von Tim Wagner" />
+  <header class="header">
+    <nav class="nav">
+      <ul class="list">
+        <li class="listitem">
+          <a href="#aboutme">Über mich</a>
+        </li>
+        <li class="listitem">
+          <a href="#hobbies">Hobbys</a>
+        </li>
+        <li class="listitem">
+          <a href="#goals">Ziele</a>
+        </li>
+        <li class="listitem">
+          <a href="#contact">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+    <h1></h1>
+  </header>
+  <body class="body">
+    <section class="main-section">
+      <h1>Tim Wagner</h1>
+      <img src="image/img_Tim.jpg" class="img" />
+    </section>
+    <section id="aboutme" class="main">
+      <p>
+        Moin Moin, ich bin Tim, 29 Jahre alt und wohne seit drei Jahren in
+        Hamburg. Nach meiner Ausbildung zum Tischler in Tübingen bin ich in den
+        hohen Norden gezogen um hier meine Wurzeln bzw. Möbel zu "schlagen". Vor
+        gut einem Jahr habe ich mich entschieden noch etwas neues
+        auszuprobieren, was mir die Möglichkeit bietet meinen Arbeitslort freie
+        wählen zu können. Deshalb bin ich seit mitte April Web development
+        student bei <a href="https://www.neuefische.de/">Neue Fische</a> und
+        hoffe hier für meine zuküftige Karriere erste Schritte gehen zu können.
+      </p>
+    </section>
+    <section id="hobbies" class="main">
+      <h2>Hobbies:</h2>
+      <div>
+        <ul>
+          <li>soziale Interaktion</li>
+          <li>Snowboarden</li>
+          <li>Segeln</li>
+          <li>Kaffee(-Zubereitung)</li>
+        </ul>
+      </div>
+    </section>
+    <section id="goals" class="main">
+      Ziele:
+      <div>
+        <ul>
+          <li>Zertifikat Web development</li>
+          <li>Job in der IT-Branche</li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact" class="main">
+      Kontakt
+      <div>
+        <a>mail: tim.w@gner-mail.de</a>
+      </div>
+    </section>
   </body>
-  <footer></footer>
+  <footer>
+    <a href="#top" class="goto-top">..und wieder ab nach oben! ;)</a>
+  </footer>
 </html>
